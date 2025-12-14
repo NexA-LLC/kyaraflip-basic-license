@@ -1,0 +1,11 @@
+{
+  "name": "KyaraFlip Fundamental License (KFL)",
+  "version": "v0.9r",
+  "status": "preview",
+  "textUpdatedAt": "2025-10-04",
+  "packagedAt": "2025-12-14",
+  "documents": [
+    { "path": "license.ja.md", "sha256": "e788371711ab95d29767ec6eca97de1cc6b3aec24284e2e9de933336e026d798" },
+    { "path": "license.en.md", "sha256": "1dbf76ff8082357ee57cb2513fa57d6b5e511dde29208c132b1758a03d55d964" }
+  ]
+}

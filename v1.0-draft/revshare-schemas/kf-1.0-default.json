@@ -1,0 +1,11 @@
+{
+  "id": "revshare://kf/1.0/default",
+  "version": "1.0",
+  "shares": {
+    "creator": 70,
+    "platform": 20,
+    "distributor": 10
+  },
+  "notes": "DRAFT: defaults only; do not treat as binding."
+}
+

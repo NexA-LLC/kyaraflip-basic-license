@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KyaraFlip License Metadata (Draft)",
+  "type": "object",
+  "required": [
+    "license_version",
+    "work_id",
+    "artifact_id",
+    "replica_id",
+    "creator",
+    "license_url",
+    "allow_derivatives",
+    "commercial_use",
+    "rev_share_schema_ref",
+    "content_hash",
+    "signature"
+  ],
+  "properties": {
+    "license_version": { "type": "string" },
+    "work_id": { "type": "string" },
+    "artifact_id": { "type": "string" },
+    "replica_id": { "type": "string" },
+    "creator": { "type": "string" },
+    "attribution": { "type": "string" },
+    "license_url": { "type": "string", "format": "uri" },
+    "allow_derivatives": { "type": "boolean" },
+    "commercial_use": { "type": "boolean" },
+    "rev_share_schema_ref": { "type": "string" },
+    "content_hash": { "type": "string" },
+    "signature": { "type": "string" }
+  },
+  "additionalProperties": false
+}
+
