@@ -1,0 +1,23 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Logs / temp
+*.log
+tmp/
+
+# Node (only if tooling is added later)
+node_modules/
+
+
+# 共通スクリプトセットアップ（環境依存）
+bin/shared/
+clean_codex_branches.command
+auto_commit.command
+clean_vk_worktrees.command
+sync_github_issues.command
+report_create.command
+
