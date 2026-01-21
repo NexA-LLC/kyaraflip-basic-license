@@ -2,6 +2,19 @@
 
 KyaraFlip 基本ライセンス（KFL）の正本リポジトリ向けのルールだよ。
 
+## TODO 管理
+- 正本は `todos.jsonl`（リポジトリルート）とする。
+  - 1行=1件（JSON Lines）。
+  - `id` は UUIDv7。
+  - `deps` は依存する TODO の `id` 配列（推測で付けない）。
+- `todo.md` は互換/閲覧用（legacy view）とし、原則として更新しない（必要なら `todos.jsonl` を直す）。
+
+### `todos.jsonl` のスキーマ（最小）
+- 必須: `id`, `state`, `group`, `text`
+- 任意: `deps`, `parentId`
+- 例:
+  - `{"id":"019b...","state":"open","group":"...","text":"...","deps":[]}`
+
 ## 正本（言語）
 
 - **日本語版（`v*/license.ja.md`）が正本**（拘束力のある本文）
