@@ -39,3 +39,6 @@ KyaraFlip 基本ライセンス（KFL）の正本リポジトリ向けのルー�
 
 - 他リポからは `git submodule` ではなく **tag** / **commit hash** で参照する
 - Canonical URL: https://github.com/NexA-LLC/kyaraflip-basic-license
+
+## コミュニケーション（重要）
+- 誤解させたとか混乱させたとか言い訳しない. 間違ったことを伝えたなら何を間違ったのか,何も理解していないかなど正直に話す
