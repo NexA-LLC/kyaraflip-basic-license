@@ -4,4 +4,4 @@
 > This document is a draft and is not yet in force.  
 > Intended canonical language: Japanese (`license.ja.md`). English is a convenience translation.
 
-TODO: Draft KFL v1.0 text here, building on v0.9r and including RRR (Replica Redistribution Rights).
+The license text is not drafted yet. See `todos.jsonl` `019c387b-22db-7068-9c66-f185c40c37b2`.
