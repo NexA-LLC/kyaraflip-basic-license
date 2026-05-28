@@ -2,6 +2,19 @@
 
 KyaraFlip 基本ライセンス（KFL）の正本リポジトリ向けのルールだよ。
 
+## TODO 管理
+- 正本は `todos.jsonl`（リポジトリルート）とする。
+  - 1行=1件（JSON Lines）。
+  - `id` は UUIDv7。
+  - `deps` は依存する TODO の `id` 配列（推測で付けない）。
+- 旧 Markdown TODO は廃止し、`todos.jsonl` のみ運用する。
+
+### `todos.jsonl` のスキーマ（最小）
+- 必須: `id`, `state`, `group`, `text`
+- 任意: `deps`, `parentId`
+- 例:
+  - `{"id":"019b...","state":"open","group":"...","text":"...","deps":[]}`
+
 ## 正本（言語）
 
 - **日本語版（`v*/license.ja.md`）が正本**（拘束力のある本文）
@@ -26,3 +39,11 @@ KyaraFlip 基本ライセンス（KFL）の正本リポジトリ向けのルー�
 
 - 他リポからは `git submodule` ではなく **tag** / **commit hash** で参照する
 - Canonical URL: https://github.com/NexA-LLC/kyaraflip-basic-license
+
+## コミュニケーション（重要）
+- 誤解させたとか混乱させたとか言い訳しない. 間違ったことを伝えたなら何を間違ったのか,何も理解していないかなど正直に話す
+
+## SOUL.md
+- `SOUL.md` is the project source of truth for identity, principles, constraints, and evolution policy.
+- When local optimizations conflict with long-term direction, follow `SOUL.md`.
+- Any `SOUL.md` change must be human-reviewed before merge.
