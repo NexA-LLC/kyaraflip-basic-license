@@ -21,3 +21,6 @@ clean_vk_worktrees.command
 sync_github_issues.command
 report_create.command
 
+
+# NexA tester artifacts
+.nexa/tester/runs/
